@@ -14,8 +14,17 @@ public class JavaIfElse {
         System.out.println(getMessage(number));
     }
 
-    private static String  getMessage(int number) {
+    public static String  getMessage(int number) {
         String message = "";
+        if(number % 2 != 0){
+            message = "Weird";
+        } else {
+            if( (number >=2 && number <= 5) || number > 20){
+                message = "Not Weird";
+            } else {
+                message = "Weird";
+            }
+        }
         return message ;
     }
 }
