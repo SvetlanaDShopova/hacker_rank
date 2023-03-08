@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class JavaIfElse {
 
+    private static final String WEIRD = "Weird";
+    private static final String NOT_WEIRD = "Not weird";
+
     private static final Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         int number = scanner.nextInt();
@@ -15,14 +18,14 @@ public class JavaIfElse {
     }
 
     public static String  getMessage(int number) {
-        String message = "";
+        String message = WEIRD;
         if(number % 2 != 0){
-            message = "Weird";
+            message = WEIRD;
         } else {
             if( (number >=2 && number <= 5) || number > 20){
-                message = "Not Weird";
+                message = NOT_WEIRD;
             } else {
-                message = "Weird";
+                message = WEIRD;
             }
         }
         return message ;
