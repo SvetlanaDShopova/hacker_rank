@@ -15,11 +15,10 @@ public class Solution {
         String answer = "";
         if(a != null && !a.trim().isEmpty() && a.trim().length() <=50 && a.matches("^[a-z]*$")){
             String test = "";
+
             for(int i = a.length()-1; i >= 0; i-- ){
                 test = test + a.charAt(i);
             }
-            System.out.println("Original : " + a);
-            System.out.println("Test: " + test);
 
             if(a.equalsIgnoreCase(test)){
                 answer = "Yes";
