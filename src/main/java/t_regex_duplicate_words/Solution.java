@@ -8,7 +8,7 @@ public class Solution {
 
     private static final String regex = "\\b(\\w+)(?:\\W+\\1\\b)+";
     private static final Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
-   
+
 
     public static void main(String[] args) {
 
