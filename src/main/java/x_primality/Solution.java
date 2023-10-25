@@ -3,9 +3,8 @@ package x_primality;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.util.Random;
+
 
 public class Solution {
 
