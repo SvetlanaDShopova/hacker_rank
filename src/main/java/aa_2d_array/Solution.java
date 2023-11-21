@@ -1,4 +1,4 @@
-package aa_2darray;
+package aa_2d_array;
 
 import java.io.BufferedReader;
 import java.io.IOException;
